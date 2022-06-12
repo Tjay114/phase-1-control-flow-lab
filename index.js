@@ -1,21 +1,12 @@
-function scuberGreetingForFeet(feet){
+function scuberGreetingForFeet(value){
 
-
-  if(feet <= 400){
-    return 'This one is on me!'
-  } else if (1999 < feet && feet < 2500){
-      return "I will gladly take your thirty bucks."
-function scuberGreetingForFeet (feet) {
-  if (feet <= 400) {
-    return 'This one is on me!';
-  } else if (1999 < feet && feet < 2500) {
+  if (value <= 2000) {
+    return "This one is on me!";
+  } else if (value > 2000 && value <= 2500){
     return "I will gladly take your thirty bucks.";
   } else {
-    return "No can do."
     return "No can do.";
   }
-}
-}
 }
 
 
@@ -28,18 +19,16 @@ function ternaryCheckCity(city){
 }
 
 function switchOnCharmFromTip(tip){
-  function switchOnCharmFromTip (tip){
+
     switch (tip) {
       case 'generous':
         return 'Thank you so much.'
         break;
-        return 'Thank you so much.';
         case 'not as generous':
           return 'Thank you.'
-          return 'Thank you.';
+          break;
           default:
             return 'Bye.'
-            return 'Bye.';
+            
     }
   }
-}
